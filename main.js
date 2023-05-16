@@ -1,9 +1,9 @@
 array = [];
 
-for (let i = 20; i <= 800; i += 4) {
+for (let i = 100; i >= 10; i -= 2) {
   array.push(i);
 }
-
+console.log(array);
 // Random Library
 
 // Return a random decimbal b/t low (inclusive) and high (exclusive)
